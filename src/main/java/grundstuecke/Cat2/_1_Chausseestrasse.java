@@ -4,8 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-public class BELisenstrasse {
-    private final String name = "Lisenstrasse";
+public class _1_Chausseestrasse {
+    private final String name = "Chausseestrasse";
     private final int preis = 100;
     private final int miete = 6;
     private final int hausPreis = 50;
@@ -16,6 +16,7 @@ public class BELisenstrasse {
     private final int mieteHotel = 550;
     private final int hypothek = 50;
     private final int hypothekMitZins = 55;
+
     @Setter
     private int anzahlHaeuser = 0;
     @Setter

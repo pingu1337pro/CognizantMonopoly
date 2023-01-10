@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-public class CSeestrasse {
+public class _1_Seestrasse {
     private final String name = "Seestrasse";
     private final int preis = 140;
     private final int miete = 10;

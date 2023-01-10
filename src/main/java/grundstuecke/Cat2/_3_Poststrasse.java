@@ -3,7 +3,7 @@ package grundstuecke.Cat2;
 import lombok.Getter;
 import lombok.Setter;
 @Getter
-public class BPoststrasse {
+public class _3_Poststrasse {
     private final String name = "Poststrasse";
     private final int preis = 120;
     private final int miete = 8;
