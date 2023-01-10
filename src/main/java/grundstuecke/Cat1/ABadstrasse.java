@@ -1,4 +1,4 @@
-package grundstuecke;
+package grundstuecke.Cat1;
 
 import lombok.Getter;
 import lombok.Setter;

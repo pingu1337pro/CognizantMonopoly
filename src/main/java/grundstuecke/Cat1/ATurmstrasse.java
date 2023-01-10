@@ -1,5 +1,9 @@
-package grundstuecke;
+package grundstuecke.Cat1;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
 public class ATurmstrasse {
     private final String name = "Turmstrasse";
     private final int preis = 60;
@@ -10,6 +14,18 @@ public class ATurmstrasse {
     private final int mieteHaus3 = 180;
     private final int mieteHaus4 = 320;
     private final int mieteHotel = 450;
+    private final int hypothek = 30;
+    private final int hypothekMitZins = 33;
+    @Setter
+    private int anzahlHaeuser = 0;
+    @Setter
+    private boolean hatHotel = false;
+    @Setter
+    private boolean hatHypothek = false;
+    @Setter
+    private boolean istGekauft = false;
+    @Setter
+    private int besitzerId = 0;
 
 }
 
