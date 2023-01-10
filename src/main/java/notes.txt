@@ -1,0 +1,4 @@
+1. boolean istGekauft überflüssig? weil wenn besitzerId != null dann ist es gekauft.
+
+2. Bahnhof miete ist nicht in der DB, sondern wird berechnet. (siehe Suedbahnhof.java)/clashes with previous design
+
