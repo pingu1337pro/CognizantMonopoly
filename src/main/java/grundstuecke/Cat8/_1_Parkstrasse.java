@@ -25,5 +25,12 @@ public class _1_Parkstrasse {
     private boolean istGekauft = false;
     @Setter
     private int besitzerId = 0;
+    public boolean istGekauft() {
+        if (besitzerId == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
 }

@@ -27,5 +27,12 @@ public class _2_Turmstrasse {
     @Setter
     private int besitzerId = 0;
 
+    public boolean istGekauft() {
+        if (besitzerId == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 }
 
